@@ -13,7 +13,7 @@ export OEM="xiaomi"
 ## "vendorbootimage" - for devices Using vendor boot for the recovery ramdisk (Usually for devices shipped with Android 12 or higher)
 export TARGET="bootimage"
 
-export OUTPUT="orange-fox*.zip"
+export OUTPUT="Orange*.zip"
 
 # Additional Dependencies (eg: Kernel Source)
 # Format: "repo dest"
@@ -22,7 +22,7 @@ DEPS=(
 )
 
 # Extra Command
-export EXTRA_CMD="export OF_MAINTAINER=symmetrical_byte"
+export EXTRA_CMD="export OF_MAINTAINER=symmetricalbyte"
 
 # Magisk
 ## Use the Latest Release of Magisk for the OrangeFox addon
