@@ -2,16 +2,16 @@
 
 # Device
 export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/OrangeFoxRecovery/device_xiaomi_garden-R -b fox_11.0"
+export DT_LINK="https://github.com/symmetricalbyte/twrp_xiaomi_fog -b twrp-11"
 
-export DEVICE="garden"
+export DEVICE="fog"
 export OEM="xiaomi"
 
 # Build Target
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
 ## "bootimage" - for A/B devices without recovery partition (and without vendor boot)
 ## "vendorbootimage" - for devices Using vendor boot for the recovery ramdisk (Usually for devices shipped with Android 12 or higher)
-export TARGET="recoveryimage"
+export TARGET="bootimage"
 
 export OUTPUT="orange-fox*.zip"
 
