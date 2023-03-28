@@ -2,10 +2,10 @@
 
 # Device
 export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/symmetricalbyte/twrp_xiaomi_fog -b twrp-11"
+export DT_LINK="https://github.com/halal-beef/twrp_device_nokia_WSP_sprout -b android-11"
 
-export DEVICE="fog"
-export OEM="xiaomi"
+export DEVICE="WSP_sprout"
+export OEM="nokia"
 
 # Build Target
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
