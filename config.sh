@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/boedhack99/device_xiaomi_fog-TWRP -b twrp-12.1"
+export FOX_BRANCH="fox_12.1"
+export DT_LINK="https://github.com/adi8900/twrp_device_xiaomi_davinci -b twrp-12.1"
 
-export DEVICE="fog"
+export DEVICE="davinci"
 export OEM="xiaomi"
 
 # Build Target
 ## "recoveryimage" - for A-Only Devices without using Vendor Boot
 ## "bootimage" - for A/B devices without recovery partition (and without vendor boot)
 ## "vendorbootimage" - for devices Using vendor boot for the recovery ramdisk (Usually for devices shipped with Android 12 or higher)
-export TARGET="bootimage"
+export TARGET="recoveryimage"
 
 export OUTPUT="OrangeFox*.zip"
 
